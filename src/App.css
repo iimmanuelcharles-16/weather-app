@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  background: linear-gradient(135deg, #e0e7ff, #c7d2fe);
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+/* Form UI */
+
+.form-box {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  width: 320px;
+  text-align: center;
+}
+
+.form-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-box button {
+  width: 100%;
+  padding: 12px;
+  background: #4338ca;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Certificate */
+
+.certificate-wrapper {
+  text-align: center;
+}
+
+.certificate {
+  width: 900px;
+  background: white;
+  padding: 20px;
+}
+
+.certificate-border {
+  border: 8px solid #4338ca;
+  padding: 60px;
+}
+
+.title {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+}
+
+.student-name {
+  font-size: 36px;
+  margin: 20px 0;
+  text-decoration: underline;
+}
+
+.course-name {
+  font-size: 24px;
+  margin: 10px 0 30px;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  font-size: 16px;
+}
+
+.signature-line {
+  width: 200px;
+  border-bottom: 2px solid black;
+  margin-top: 20px;
+}
+
+/* Download Button */
+
+.download-btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
